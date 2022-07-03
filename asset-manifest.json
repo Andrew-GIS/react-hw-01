@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/Andrew-GIS/react-hw-01.git/static/css/main.7acaea2f.css",
-    "main.js": "/Andrew-GIS/react-hw-01.git/static/js/main.8ae26278.js",
-    "index.html": "/Andrew-GIS/react-hw-01.git/index.html",
-    "main.7acaea2f.css.map": "/Andrew-GIS/react-hw-01.git/static/css/main.7acaea2f.css.map",
-    "main.8ae26278.js.map": "/Andrew-GIS/react-hw-01.git/static/js/main.8ae26278.js.map"
+    "main.css": "/Andrew-GIS/react-hw-01/static/css/main.7acaea2f.css",
+    "main.js": "/Andrew-GIS/react-hw-01/static/js/main.8ae26278.js",
+    "index.html": "/Andrew-GIS/react-hw-01/index.html",
+    "main.7acaea2f.css.map": "/Andrew-GIS/react-hw-01/static/css/main.7acaea2f.css.map",
+    "main.8ae26278.js.map": "/Andrew-GIS/react-hw-01/static/js/main.8ae26278.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
