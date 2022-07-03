@@ -46,11 +46,9 @@ export const FriendIsOnline = styled.span`
 	background-color: ${props => {
 	switch (props.Online) {
 		case true: {
-			console.log('green :>> ');
 			return "green";
 		}
 		case false: {
-			console.log('green :>> ');
 			return "red";
 		}
 		default: return "yellow";

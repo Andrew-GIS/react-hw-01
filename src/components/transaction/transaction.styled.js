@@ -17,7 +17,7 @@ export const TableHeaders = styled.tr`
 	justify-content: center;
 	background-color: #dbe7fb;`;
 
-export const TableHead = styled.tr`
+export const TableHead = styled.th`
 	 font-family: 'Rock Salt', cursive;
 	 border: solid #b3b3b3;
 	width: 100%;

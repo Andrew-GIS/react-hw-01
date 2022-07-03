@@ -17,7 +17,7 @@ export default function Statistic({ title, stats }) {
 						<span class="percentage">{stat.percentage}</span> */}
 					</StatisticLi>))}
 			</StatisticList>
-		</Conteiner>
+			</Conteiner>
 	)
 }
 
