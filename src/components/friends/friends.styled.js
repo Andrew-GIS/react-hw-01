@@ -1,5 +1,12 @@
 import styled from "@emotion/styled";
 
+export const Conteiner = styled.div`
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 0px 250px 0px 250px;`;
+
 export const FriendList = styled.ul`
 	display: flex;
 	justify-content: center;
@@ -15,6 +22,7 @@ export const Friend = styled.li`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	align-items: center;
 	padding: 10px;
 	border-radius: 25px;
 	text-decoration: none;
@@ -27,8 +35,8 @@ export const Friend = styled.li`
 `;
 
 export const FriendAvatar = styled.img`
-	width: 150px;
-	height: 150px;
+	max-width: 75px;
+	max-height: 75px;
 	object-fit: contain;
 	margin-bottom: 5px;	
 `;

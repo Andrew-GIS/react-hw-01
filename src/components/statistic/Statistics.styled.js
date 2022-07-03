@@ -2,13 +2,22 @@ import styled from "@emotion/styled";
 
 export const Conteiner = styled.div`
 display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-background-color: #dbe7fb;
-margin: 50px 500px 0px 500px;
-border-radius: 10px;
-min-width: 400px;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin: 50px auto 0px auto;
+	// background-color: #dbe7fb;
+	border-radius: 10px;
+	min-width: 400px;
+
+// display: flex;
+// justify-content: center;
+// flex-direction: column;
+// align-items: center;
+// background-color: #dbe7fb;
+// margin: 50px 500px 0px 500px;
+// border-radius: 10px;
+// min-width: 400px;
 `;
 
 export const Title = styled.h2`
