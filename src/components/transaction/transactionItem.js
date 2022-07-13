@@ -3,13 +3,11 @@ import { TableRow, TableData } from './transaction.styled';
 
 export default function TableRowItem({ type, amount, currency }) {
 	return (
-		<>
 			<TableRow>
 				<TableData>{type}</TableData>
       			<TableData>{amount}</TableData>
 				<TableData>{currency}</TableData>
 			</TableRow>
-		</>
 	)
 }
 

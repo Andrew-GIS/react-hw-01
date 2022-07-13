@@ -3,11 +3,10 @@ import StatisticItem from "./statisticItem"
 import {Conteiner, Title, StatisticList, StatisticLi} from './Statistics.styled'
 
 export default function Statistic({ title, stats }) {
-	const isTitle = { title };
+	// const isTitle = { title };
 	return (
 		<Conteiner>
-		
-  			<Title>{isTitle && title}</Title>
+			{title && <Title>{title}</Title>}
 
 			<StatisticList>
 				{stats.map((stat) => (
@@ -15,7 +14,7 @@ export default function Statistic({ title, stats }) {
 						<StatisticItem label={stat.label} percentage = {stat.percentage}/>
 					</StatisticLi>))}
 			</StatisticList>
-			</Conteiner>
+		</Conteiner>
 	)
 }
 

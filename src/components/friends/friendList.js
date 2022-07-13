@@ -5,7 +5,7 @@ import {Conteiner, FriendList, Friend } from './friends.styled'
 export default function FriendsList({ friends }) {
 	return (
 			<Conteiner>
-			<FriendList>
+				<FriendList>
 				{friends.map((friend) => (
 					<Friend key={friend.id}>
 						<FriendItem isOnline={friend.isOnline} avatar={friend.avatar} name={friend.name} />

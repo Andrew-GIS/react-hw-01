@@ -3,7 +3,6 @@ import {FriendAvatar, InfoWrap, FriendIsOnline, FriendName} from './friends.styl
 export default function FriendItem({ avatar, name, isOnline }) {
 	return (
 		<>
-			
 			<FriendAvatar src={avatar} alt={name} />
 			<InfoWrap>
 				<FriendIsOnline Online={isOnline}></FriendIsOnline>
@@ -12,9 +11,3 @@ export default function FriendItem({ avatar, name, isOnline }) {
 		</>
 	)
 }
-
-// function isOnlineCheck(isOnline) {
-// 	if (isOnline === true) {
-// 		// css.friendIsOnline.colo
-// 	}
-// }

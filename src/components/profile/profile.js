@@ -3,8 +3,7 @@ import {Profile, Description, Avatar, Name, Tag, Location, Stats, Stat, Label, Q
 
 export default function UserProfile ({username, tag, location, avatar, stats}) {
 	return (
-		<>
-			<Profile >
+		<Profile >
 				<Description >
 					<Avatar
 					src={avatar}
@@ -29,8 +28,8 @@ export default function UserProfile ({username, tag, location, avatar, stats}) {
 						<Quantity >{stats.likes}</Quantity>
 					</Stat>
 				</Stats>
-			</Profile>
-		</>)
+		</Profile>
+	)
 }
 
 UserProfile.protoTypes = {
